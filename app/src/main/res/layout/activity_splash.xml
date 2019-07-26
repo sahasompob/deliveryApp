@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        app:radius="10dp"
+        app:fillColor="@color/colorPrimary"
+        app:pageColor="#88e7e4e4" />
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/skip_btn"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:textColor="@color/colorAccent"
+            android:layout_weight="1"
+            android:background="@drawable/skip_btn"
+            android:text="Skip" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_marginLeft="40dp"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:background="@drawable/next"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1"
+            android:text="Next" />
+
+    </LinearLayout >
+
+
+</LinearLayout >

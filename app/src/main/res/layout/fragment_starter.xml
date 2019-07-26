@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/siam_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/asap_medium"
+        android:text="Siam Delivery"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="26dp" />
+
+
+    <TextView
+        android:id="@+id/regis_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/siam_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/asap_medium"
+        android:text="@string/register_text"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="32dp" />
+
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regis_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/sign_in"
+        android:text="@string/sign_in"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/sign_in_btn"
+        android:layout_below="@+id/sign_in_btn"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/register"
+        android:text="@string/register"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+</RelativeLayout>

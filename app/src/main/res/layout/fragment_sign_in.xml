@@ -1,0 +1,199 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context="com.example.kingz.delivery.fragment.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/logo_register"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/regis_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/asap_medium"
+        android:text="@string/sign_in"
+        android:textAllCaps="true"
+        android:textColor="@color/colorBlack"
+        android:textSize="32dp" />
+
+
+
+    <EditText
+        android:id="@+id/number_phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/regis_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edit_text_round"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/enter_phone_number"
+        android:inputType="number"
+        android:paddingLeft="15dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/number_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_round"
+        android:drawableLeft="@drawable/ic_lock_pass"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingLeft="15dp" />
+
+
+
+    <LinearLayout
+        android:id="@+id/forgot_pass_layout"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/password"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/forgot_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/forgot_password"
+            android:layout_weight="0.5"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/sign_in_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_alignStart="@+id/number_phone"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:background="@drawable/skip_btn"
+            android:gravity="center"
+            android:text="@string/sign_in"
+            android:textColor="@color/colorAccent" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/or_layout"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/forgot_pass_layout"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:background="@color/colorBlack"/>
+
+
+        <Button
+            android:id="@+id/textView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:text="@string/or_text"
+            android:background="@drawable/or_btn"
+            android:textColor="@color/colorBlack" />
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="130dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="@color/colorBlack"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/facebook_layout"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/or_layout"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/facebook_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/facebook_btn"
+            android:gravity="center"
+            android:layout_marginRight="20dp"
+            android:text="@string/facebook_text"
+            android:textColor="@color/colorAccent" />
+        <Button
+            android:id="@+id/google_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/google_btn"
+            android:gravity="center"
+            android:text="@string/google_text"
+            android:textColor="@color/colorAccent" />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/facebook_layout"
+        android:background="@drawable/sign_in_bg"
+        android:layout_height="270dp">
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Siam Delivery</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="done">Done</string>
+
+
+    <string name="register_text">Register and Sign in</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="policy_text">I Agree With Terms &amp; Conditions</string>
+    <string name="or_text">Or</string>
+    <string name="facebook_text">Facebook</string>
+    <string name="google_text">Google</string>
+
+
+    <string name="hint_sms">Do not Recieve SMS . repeat SMS</string>
+    <string name="enter_code_sms">Enter code from SMS</string>
+    <string name="enter_code">Enter code</string>
+
+
+    <string name="home_title_toolbar">Home</string>
+    <string name="card_food">Food</string>
+    <string name="card_taxi">Taxi</string>
+    <string name="card_supermarket">Supermarket</string>
+    <string name="card_express">Express</string>
+    <string name="card_new_service">New Service</string>
+
+
+    <string name="home_bottom_title">Home</string>
+    <string name="history_bottom_title">History</string>
+    <string name="favorite_bottom_title">Favorite</string>
+    <string name="cart_bottom_title">Cart</string>
+    <string name="account_bottom_title">Account</string>
+</resources>

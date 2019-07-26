@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sms_bg"
+    tools:context="com.example.kingz.delivery.fragment.RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/logo" />
+
+
+    <TextView
+        android:id="@+id/sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/asap_medium"
+        android:text="@string/enter_code_sms"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/number_phone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/sms_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/sms_btn"
+        android:textAlignment="center"
+        android:textColorHint="@color/colorWhite"
+        android:ems="10"
+        android:hint="@string/enter_code"
+        android:textColor="@color/colorAccent"
+        android:inputType="number"/>
+
+
+    <TextView
+        android:id="@+id/hint_sms_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/hint_sms"
+        android:textColor="@color/colorAccent"
+        android:textSize="16dp" />
+
+
+
+    <Button
+        android:id="@+id/done_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/number_phone"
+        android:layout_centerVertical="true"
+        android:layout_weight="1"
+        android:background="@drawable/sign_up"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/hint_sms_text"
+        android:gravity="center"
+        android:text="@string/done"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimary" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_extrabold</item>
+        <item>@font/andada</item>
+        <item>@font/asap_medium</item>
+        <item>@font/asul_bold</item>
+        <item>@font/droid_serif</item>
+        <item>@font/squada_one</item>
+        <item>@font/unlock</item>
+    </array>
+</resources>
