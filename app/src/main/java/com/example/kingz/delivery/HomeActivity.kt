@@ -12,7 +12,6 @@ class HomeActivity : AppCompatActivity() {
     lateinit var toolbar: ActionBar
     private lateinit var homeToolbar: Toolbar
     private lateinit var textTitle: TextView
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)

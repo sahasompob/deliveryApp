@@ -28,11 +28,24 @@
 
 
     <string name="home_title_toolbar">Home</string>
+    <string name="food_title_toolbar">Food</string>
+
     <string name="card_food">Food</string>
     <string name="card_taxi">Taxi</string>
     <string name="card_supermarket">Supermarket</string>
     <string name="card_express">Express</string>
     <string name="card_new_service">New Service</string>
+
+    <string name="delivery_to">To :</string>
+    <string name="current_location">Current Location</string>
+    <string name="search_text">Search Restaurant &amp; Food </string>
+    <string name="restaurant_shop">Restaurant </string>
+    <string name="delivery_time">Minute </string>
+    <string name="delivery_in">Delivery In </string>
+
+
+
+
 
 
     <string name="home_bottom_title">Home</string>
