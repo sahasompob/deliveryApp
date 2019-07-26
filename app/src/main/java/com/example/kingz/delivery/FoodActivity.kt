@@ -11,7 +11,7 @@ class FoodActivity : AppCompatActivity() {
         setContentView(R.layout.activity_food)
 
         supportFragmentManager.beginTransaction()
-                .add(R.id.area_main, FoodFragment.newInstance(),"food")
+                .add(R.id.area_main, FoodFragment.newInstance(),"asdsadads")
                 .commit()
 
     }
