@@ -12,6 +12,7 @@
         android:layout_marginLeft="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
         android:background="@drawable/cardview">
 
         <ImageView
@@ -33,7 +34,7 @@
             android:layout_alignTop="@+id/im_machine"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/mitr_light"
-            android:text="@string/restaurant_shop"
+            android:text="@string/restaurant_shop_all"
             android:textColor="#4c4d4e"
             android:textSize="24sp"
             android:textStyle="bold" />

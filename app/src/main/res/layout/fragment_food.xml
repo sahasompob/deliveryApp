@@ -109,7 +109,6 @@
 
         <TextView
             android:layout_marginLeft="10dp"
-
             android:layout_marginTop="20dp"
             android:id="@+id/total_restaurant_text"
             android:layout_width="wrap_content"
@@ -118,7 +117,7 @@
             android:layout_alignParentTop="true"
             android:gravity="center"
             android:textColor="@color/colorBlack"
-            android:text="@string/restaurant_shop"
+            android:text="@string/restaurant_shop_all"
             android:textSize="18dp" />
 
         <android.support.v7.widget.RecyclerView

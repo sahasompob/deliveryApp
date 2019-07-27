@@ -39,7 +39,7 @@
     <string name="delivery_to">To :</string>
     <string name="current_location">Current Location</string>
     <string name="search_text">Search Restaurant &amp; Food </string>
-    <string name="restaurant_shop">Restaurant </string>
+    <string name="restaurant_shop_all">All Restaurant </string>
     <string name="delivery_time">Minute </string>
     <string name="delivery_in">Delivery In </string>
 
