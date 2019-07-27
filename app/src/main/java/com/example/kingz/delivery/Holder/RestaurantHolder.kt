@@ -30,7 +30,7 @@ class RestaurantHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View
     }
 
     override fun onClick(v: View) {
-        this.itemClickListener!!.onItemClick(v, layoutPosition)
+//        this.itemClickListener!!.onItemClick(v, layoutPosition)
 
     }
 
